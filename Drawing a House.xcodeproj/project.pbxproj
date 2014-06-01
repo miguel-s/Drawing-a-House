@@ -21,6 +21,7 @@
 		39A59B23193BC1D70083289F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A59B05193BC1D70083289F /* UIKit.framework */; };
 		39A59B2B193BC1D70083289F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39A59B29193BC1D70083289F /* InfoPlist.strings */; };
 		39A59B2D193BC1D70083289F /* Drawing_a_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A59B2C193BC1D70083289F /* Drawing_a_HouseTests.m */; };
+		39A59B38193BC3320083289F /* MSDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A59B37193BC3320083289F /* MSDrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		39A59B28193BC1D70083289F /* Drawing a HouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing a HouseTests-Info.plist"; sourceTree = "<group>"; };
 		39A59B2A193BC1D70083289F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39A59B2C193BC1D70083289F /* Drawing_a_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_a_HouseTests.m; sourceTree = "<group>"; };
+		39A59B36193BC3320083289F /* MSDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDrawingView.h; sourceTree = "<group>"; };
+		39A59B37193BC3320083289F /* MSDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				39A59B10193BC1D70083289F /* MSAppDelegate.h */,
 				39A59B11193BC1D70083289F /* MSAppDelegate.m */,
 				39A59B13193BC1D70083289F /* Main.storyboard */,
+				39A59B36193BC3320083289F /* MSDrawingView.h */,
+				39A59B37193BC3320083289F /* MSDrawingView.m */,
 				39A59B16193BC1D70083289F /* MSViewController.h */,
 				39A59B17193BC1D70083289F /* MSViewController.m */,
 				39A59B19193BC1D70083289F /* Images.xcassets */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39A59B12193BC1D70083289F /* MSAppDelegate.m in Sources */,
+				39A59B38193BC3320083289F /* MSDrawingView.m in Sources */,
 				39A59B18193BC1D70083289F /* MSViewController.m in Sources */,
 				39A59B0E193BC1D70083289F /* main.m in Sources */,
 			);
